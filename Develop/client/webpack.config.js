@@ -52,10 +52,6 @@ module.exports = () => {
 
 // TODO: Add CSS loaders and babel to webpack.
 
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const path = require('path');
-
-
 module.exports = () => {
   return {
     mode: 'development',
