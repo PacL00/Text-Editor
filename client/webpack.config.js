@@ -21,12 +21,7 @@ module.exports = () => {
         filename: 'index.html',
         chunks: ['main'],
       }),
-      new HtmlWebpackPlugin({
-        template: './src/install.html',
-        filename: 'install.html',
-        chunks: ['install'],
-      }),
-      new WebpackPwaManifest({
+ WebpackPwaManifest({
         name: 'Jate',
         short_name: 'Jate',
         description: 'A simple and easy to use text editor',
